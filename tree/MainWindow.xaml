@@ -1,0 +1,51 @@
+﻿<Window x:Class="tree.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tree"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="400">
+    <Grid>
+        <StackPanel>
+            <TreeView>
+
+                <TreeViewItem Header="1 Layer">
+
+                    <TreeViewItem Header="2 Layer">
+
+                        <TreeViewItem Header="3 Layer"></TreeViewItem>
+                        <TreeViewItem Header="3 Layer">
+
+                            <TreeViewItem Header="4 Layer"></TreeViewItem>
+                            <TreeViewItem Header="4 Layer"></TreeViewItem>
+                            
+                        </TreeViewItem>
+                        <TreeViewItem Header="3 Layer"></TreeViewItem>
+                        
+                    </TreeViewItem>
+                    <TreeViewItem Header="2 Layer"></TreeViewItem>
+                    <TreeViewItem Header="2 Layer">
+                        <TreeViewItem Header="3 Layer"></TreeViewItem>
+                        <TreeViewItem Header="3 Layer"></TreeViewItem>
+                    </TreeViewItem>
+                    
+                </TreeViewItem>
+                <TreeViewItem Header="1 Layer">
+
+                    <TreeViewItem Header="2 Layer"></TreeViewItem>
+                    <TreeViewItem Header="2 Layer"></TreeViewItem>
+
+                </TreeViewItem>
+                <TreeViewItem Header="1 Layer"></TreeViewItem>
+                
+            </TreeView>
+
+
+        </StackPanel>
+        
+        
+
+
+    </Grid>
+</Window>
